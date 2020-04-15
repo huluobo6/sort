@@ -12,7 +12,7 @@ public class BubbleSort {
                 if (array[j] > array[j+1]) {
                     temp = array[j+1];
                     array[j+1] = array[j];
-                    array[j] = temp;
+                    array[j]=temp;
                 }
             }
         }
